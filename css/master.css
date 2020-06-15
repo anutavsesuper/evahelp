@@ -1,0 +1,63 @@
+@import "reset.css";
+@import "fonts.css";
+
+
+
+html {
+  font-size: 4px;
+}
+
+body {
+  background-color: #FFFFEE;
+  font-family: 'DrukTextWide', sans-serif;
+  /* overflow: hidden; */
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+h3 {
+  font-size: 4rem;
+  color: #2099F1;
+}
+a {
+  font-size: 4rem;
+  text-decoration: none;
+  color: #2099F1;
+}
+
+.info {
+  width: 95vw;
+  height: 90%;
+  /* padding: 5%; */
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+}
+.info__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.info__bottom {
+  display: flex;
+  justify-content: space-between;
+
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avopolice {
+  object-fit: cover;
+}
